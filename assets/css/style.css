@@ -18,12 +18,10 @@ header {
   font-size: 2em;
 }
 
-
 .avatar {
   width: 200px;
   margin-bottom: 0;
 }
-
 
 nav {
   background-color: #333;
@@ -46,14 +44,12 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Main section styles */
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Section styles */
 section {
   margin-bottom: 30px;
 }
@@ -63,18 +59,10 @@ section h2{
   margin-bottom: 10px;
 }
 
-
-
-
-/* Work items styles */
 .work-items {
   display:flex;
   flex-wrap:wrap;
   justify-content: space-between;
-
-  /* display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-  grid-gap: 20px; */
 }
 
 .work-item {
@@ -85,7 +73,11 @@ section h2{
 .work-item img {
   width: 100%;
   height: auto; 
+  transition:transform .3s ease;
+}
 
+.work-item img:hover {
+  transform: scale(1.1);
 }
 
 
@@ -147,7 +139,6 @@ section h2{
   .work-items .work-item {
     width:100%;
   }
-}
     body {
       font-size: .5em;
     }
