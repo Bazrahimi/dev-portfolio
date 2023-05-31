@@ -121,7 +121,7 @@ section h2 {
 }
 
 .show-more-info:hover + .more-info {
-  display: block !important;
+  display:block!important;
   background-color: lightgray;
   padding: 20px;
   cursor: grab;
@@ -134,25 +134,21 @@ section h2 {
 #contact {
   display: flex;
   flex-direction: column;
-  
-  
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-#contact form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 400px;
-  margin: auto;
-}
-
-
-/* Contact form styles
 #contact form {
   display: flex;
   flex-direction: column;
   max-width: 300px;
-  margin: 0 auto;
+  width: 100%;
+}
+
+#contact form label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
 }
 
 #contact form input,
@@ -160,6 +156,7 @@ section h2 {
   margin-bottom: 10px;
   padding: 8px;
   border: 1px solid #ccc;
+  font-size: 1em;
 }
 
 #contact form input[type="submit"] {
@@ -167,7 +164,17 @@ section h2 {
   color: #fff;
   border: none;
   cursor: pointer;
-} */
+  padding: 10px 20px;
+  font-size: 1em;
+}
+
+#contact p {
+  font-size: 0.8em;
+  margin-top: 10px;
+  line-height: 1em;
+}
+
+
 
 /* Media queries */
 @media screen and (max-width: 992px) {
