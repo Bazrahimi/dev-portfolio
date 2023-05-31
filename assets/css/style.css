@@ -71,6 +71,8 @@ section h2{
 }
 
 .work-item img {
+  border: 2px solid blue;
+  box-shadow: 3px 6px lightslategrey;
   width: 100%;
   height: auto; 
   transition:transform .3s ease;
