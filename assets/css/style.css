@@ -131,7 +131,23 @@ section h2 {
   color: red;
 }
 
-/* Contact form styles */
+#contact {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+
+/* Contact form styles
 #contact form {
   display: flex;
   flex-direction: column;
@@ -151,7 +167,7 @@ section h2 {
   color: #fff;
   border: none;
   cursor: pointer;
-}
+} */
 
 /* Media queries */
 @media screen and (max-width: 992px) {
