@@ -1,5 +1,15 @@
 /* General styles */
+:root {
+  --primary-color: #333;
+  --secondary-color: #bb8588;
+  --accent-color: var(--accent-color)
+  --text-color: #fff;
+  --background-color: #ADD8E6;
+  --white-smoke:whitesmoke;
+}
+
 body {
+  max-width: 1300px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5em;
   font-size: 1em;
@@ -11,10 +21,12 @@ p {
 
 /* Header styles */
 header {
-  display: block;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #13293d;
-  color: #fff;
+  color: var(--white-smoke);
   padding: 20px;
   padding-bottom: 0px;
   font-weight: bolder;
@@ -23,10 +35,11 @@ header {
 
 /* Main container styles */
 main {
-  border: 2px solid #333;
-  background-color: #ADD8E6;
-  border-top: 5px solid #333;
-  border-bottom: 40px solid #333;
+  max-width: 1300px;
+  border: 2px solid var(--primary-color);
+  background-color: var(--background-color);
+  border-top: 5px solid var(--primary-color);
+  border-bottom: 40px solid var(--primary-color);
   margin: 40px;
   margin-top: 0;
   padding: 30px;
@@ -46,7 +59,7 @@ main {
 
 /* Navigation styles */
 nav {
-  background-color: #333;
+  background-color: var(--primary-color);
 }
 
 nav ul {
@@ -62,12 +75,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color:var(--white-smoke);
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: darkblue;
+  color: --accent-color;
   transition: color 0.3s ease-in-out;
 }
 
@@ -142,6 +155,7 @@ section h2 {
 
 .arrow {
   color: red;
+  font-weight: bolder;
 }
 
 
@@ -186,6 +200,27 @@ section h2 {
   font-size: 0.8em;
   margin-top: 10px;
   line-height: 1em;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color:var(--secondary-color);
+ 
+}
+form input:hover, 
+textarea:hover,
+button:hover {
+  box-shadow: 0 0 5px #999;
+}
+
+form label input:focus{
+  border-color: red;
+}
+
+input#name:focus,
+input#email:focus,
+textarea#message:focus {
+  border:dashed;
 }
 
 
