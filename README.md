@@ -46,7 +46,7 @@ Please feel free to use this code as starter-code for your own webpage. you alwa
 Visit the [deployed webpage](https://bazrahimi.github.io/dev-portfolio/) to see the live version.
 
 
-![Screenshot of webpage](./Develop)
+![Screenshot of webpage](./assets/images/web-screenshot.png)
 
 
 ## Contact
