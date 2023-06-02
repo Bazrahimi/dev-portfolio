@@ -10,7 +10,7 @@ This repository contains my web developer portfolio, showcasing my skills, proje
 ## Introduction
 Welcome to my web developer portfolio! This repository serves as a showcase of my journey as a web developer. It showcases my skills, highlights my projects, and provides details about my experience as a web developer. I hope this portfolio gives you a clear understanding of my capabilities and expertise.
 
-##Technologies Used
+## Technologies Used
 so far I have used only basic HTML, CSS and Git to develope the projects.
 
 - HTML
