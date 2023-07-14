@@ -1,56 +1,69 @@
-# Web Developer Portfolio
-This repository contains my web developer portfolio, showcasing my skills, projects, and experience in web development.
-## Table of Contents
-- [Introduction](#introduction)
-- [Technologies Used](#technologies-used)
-- [Projects](#projects)
-- [usage](#usage)
-- [Contact](#contact)
+# All Ready Recipes
 
-## Introduction
-Welcome to my web developer portfolio! This repository serves as a showcase of my journey as a web developer. It showcases my skills, highlights my projects, and provides details about my experience as a web developer. I hope this portfolio gives you a clear understanding of my capabilities and expertise.
+## Description
+
+Introducing the Recipe Finder App - Discover and explore new recipes made easy! Simply enter the ingredients you have available in your fridge, click on "Find Recipe," and instantly receive a list of delicious recipes based on your ingredients. Save your favorite recipes for later, as they will be stored locally for quick reference. Additionally, delve into more nutrition information to make informed choices about your meals. Embark on a culinary journey and explore a world of possibilities with the Recipe Finder App!
+
+- [GitHub Repository](https://github.com/ChristineLea/All-Ready-Recipes/)
+- [Live Demo - HomePage](https://christinelea.github.io/All-Ready-Recipes/)
+- [Live Demo - RecipePage](https://christinelea.github.io/All-Ready-Recipes/assets/html/recipe.html)
+
+## HomePage Usage/Features
+
+Visit the [deployed webpage](https://christinelea.github.io/All-Ready-Recipes/) to see the live version.
+
+![Screenshot of the webpage](./assets/images/nutrition-info.png)
+*Description: Loading nutrition information*
+
+![Screenshot of the webpage](./assets/images/result.png)
+*Description: Displaying nutrition result*
+
+## Recipe-Page Usage/Features
+
+Visit the [deployed webpage](https://christinelea.github.io/All-Ready-Recipes/assets/html/recipe.html) to see the live version.
+
+![Screenshot of the webpage](./assets/images/secondPage1.png)
+*Description: The page loads with the title "Dinner Delights" followed by a subtitle, navigation, ingredient selection, checkboxes, and the "Find Recipe" button.*
+
+![Screenshot of the webpage](./assets/images/secondPage2.png)
+*Description: Autocompletion suggests ingredient names to the user as they type. This feature improves ingredient selection by providing real-time suggestions powered by the Spoonacular API.*
+
+![Screenshot of the webpage](./assets/images/secondPage3.png)
+*Description:
+1. Selected ingredients are collected.
+2. The checkbox state for "Recipes based on my available ingredients in my fridge" is checked.
+3. If the checkbox is checked, the app searches for recipes using only the selected ingredients, ignoring other pantry items.
+4. The app determines the ranking and pantry inclusion settings.
+5. A request is sent to the Spoonacular API with the selected ingredients, ranking, and pantry inclusion settings.
+6. The API responds with recipe results based on the user's preferences.
+7. The recipe results are rendered as recipe cards, including the recipe image, title, and a "View Recipe" button.
+8. If no recipes are found, a message indicating no recipes were found is displayed.*
+
+![Screenshot of the webpage](./assets/images/secondPage4.png)
+*Description:
+1. Users can interact with recipe cards, click the "View Recipe" button, and view detailed information about each recipe, including ID, likes, missed ingredient count, unused ingredients, used ingredient count, and instructions.
+2. Users can save their favorite recipes by clicking the "Save" button, which adds the recipe to local storage.
+3. Users can access their favorite recipes by clicking the "Favorite Recipes" button in the navigation menu.*
 
 ## Technologies Used
-so far I have used only basic HTML, CSS and Git to develope the projects.
+- HTML: Used for structuring the web pages and elements.
+- CSS: Used for styling the application and providing visual enhancements.
+- JavaScript and jQuery: Used for implementing interactive functionality and making API requests.
+- Bulma CSS Framework: Used as a responsive and modern CSS framework.
+- Spoonacular API: Used for fetching recipe data based on user-selected ingredients.
+- GitHub: Used for hosting the repository and managing project files.
 
-- HTML
-- CSS
-- Git and Github
+## Relevant Files
+- `./assets/html/recipe.html`: The second HTML page that utilizes autocompletion and fetches recipe data from the Spoonacular API based on user input from the first page.
+- `./assets/css/recipe.css`: The CSS file containing styles for both HTML pages.
+- `./assets/js/script.js`: The JavaScript file containing the logic and functionality for both HTML pages.
+- `README.md`: The readme file providing an overview and instructions for the application.
 
-These are few example of my webpages. I am really looking forward to learn and develop more websites which useful features.
+## Credits to Contributors
+- [Christine Lea](https://github.com/ChristineLea)
+- [Baz Rahimi](https://github.com/bazrahimi)
+- [Alyssa Pidgeon](https://github.com/AlyssaPidgeon)
 
-## Projects
-### Project 1: [Pre-work Study Guide]
-[Pre-work Study Guide] provides bootcamp students with a few basic notes on HTML, CSS, Git, and JavaScript.the website features an algorithm implemented in JavaScript that guides students on what they can expect to learn from the website. Furthermore, it offers suggestions on the first topic that they should start studying, which are presented directly on the console.
+## License
 
-- GitHub Repository: [https://github.com/Bazrahimi/prework-study-guide]
-- Live Demo: [https://bazrahimi.github.io/prework-study-guide/]
-
-### Project 2: [Horiseon webpage]
-[Horiseon webpage] The task was to comply with certain set of standards, enhance web accessibility, and ensure proper utilization of Semantic HTML elements and alt attribute for better Search Engine Optimization. The initial codebase includes HTML and CSS files which were provided.
-
-
-- GitHub Repository: [https://github.com/Bazrahimi/horiseon-webpage]
-- Live Demo: [https://bazrahimi.github.io/horiseon-webpage/]
-
-### Project 3: [Coding Bootcamp]
-[Coding Bootcamp] 
-I have created a centralized repository for my coding bootcamp materials, including notes and other valuable resources. This personal website serves as a convenient reference for me whenever I require it, providing easy access to all the information I have gathered.
-- GitHub Repository: [https://github.com/Bazrahimi/coding-bootcamp]
-- Live Demo: [https://bazrahimi.github.io/coding-bootcamp/]
-
-## Usage
-
-Please feel free to use this code as starter-code for your own webpage. you alwase can modify the HTML and CSS files to customize the design.
-
-Visit the [deployed webpage](https://bazrahimi.github.io/dev-portfolio/) to see the live version.
-
-
-![Screenshot of webpage](./assets/images/web-screenshot.png)
-
-
-## Contact
-Thank you for visiting my portfolio!
-
--Email: [bazrahimi@hotmail.com]
-
+The code is released under the MIT License. Feel free to use, modify, and distribute it.
